@@ -1,0 +1,61 @@
+
+.container-game{
+  width: 75%;
+  margin: 0 auto; /*centralizar entre margens*/
+  margin-top: 20px;
+  text-align: center; /*centralizar elementos de texto*/
+  align-items: center;
+  border: 1px solid black;
+}
+
+.flex-blackjack-linha-1,
+.flex-blackjack-linha-2{
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-linha-1,.flex-blackjack-linha-2{  
+  background: url('https://wallpaperaccess.com/full/1756318.jpg') center;
+  color: #ffffff;
+}
+
+.flex-blackjack-linha-1 div{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  height: 350px;
+  flex:1; /*deixa ambos elementos com a mesma prioridade de elemento*/
+}
+
+.flex-blackjack-linha-1 img{
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-blackjack-linha-2 button{
+  border: 1px solid black;
+  padding:10px
+}
+
+.flex-blackjack-linha-2 div{
+  border: 1px solid black;
+  padding: 10px
+}
+
+.flex-blackjack-linha-3{
+  display: flex;
+  border: 1px solid black;
+  padding:10px;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+table, th, td{
+  padding:5px;
+  border: 1px solid black;
+}
